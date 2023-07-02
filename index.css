@@ -28,3 +28,13 @@ span{
 nav ul li:hover{
     color: black;
 }
+#movies li{
+    list-style: circle;
+    color: grey;
+    margin: 5px;
+    padding: 5px;
+}
+#movies li:hover{
+    color: #00dd00;
+    cursor: pointer ;
+}

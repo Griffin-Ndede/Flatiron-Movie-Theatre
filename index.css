@@ -33,6 +33,7 @@ nav ul li:hover{
     color: grey;
     margin: 5px;
     padding: 5px;
+    max-width: fit-content;
 }
 #movies li:hover{
     color: #00dd00;

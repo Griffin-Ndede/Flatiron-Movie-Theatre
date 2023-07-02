@@ -20,20 +20,22 @@ display1.innerHTML =`
         ${films.title}
     </h1>
 </div>
-<p>${films.description}</p>
+<p id = "description">
+${films.description}
+</p>
 <img src = "${films.poster}" alt = "poster" id= "poster">
 <div id= "buttons">
     <div id= "runtime">
-        ${films.runtime}
+        Runtime: ${films.runtime}
     </div>
     <div id = "showtime">
-        ${films.showtime}
+       Showtime: ${films.showtime}
     </div>
     <div id = "capacity">
-        ${films.capacity}
+        Capacity: ${films.capacity}
     </div>
-    <div = "tickets_sold">
-        ${films.tickets_sold}
+    <div id = "tickets_sold">
+       Tickets sold: ${films.tickets_sold}
     </div>
 </div>
 <button id = "buy"> Buy Ticket </button>

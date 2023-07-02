@@ -34,8 +34,51 @@ nav ul li:hover{
     margin: 5px;
     padding: 5px;
     max-width: fit-content;
+    width: 300px;
+
 }
 #movies li:hover{
     color: #00dd00;
     cursor: pointer ;
+}
+#content{
+    display: inline-flex;
+}
+#poster{
+    height: 300px;
+    width: 300px;
+}
+#title:hover{
+    color: #00dd00;
+}
+#buttons{
+    display: inline-flex;
+    margin: 0 20px;
+}
+#runtime{
+    /* background-color: #00dd00;
+    border-radius: 30px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    color: white; */
+}
+#runtime,
+#showtime,
+#capacity,
+#tickets_sold{
+    background-color: #00dd00;
+    border-radius: 30px;
+    margin: 0 5px;
+    padding: 2.5px 7.5px;
+    color: white;
+}
+#description{
+    width: 600px;
+}
+#buy{
+    background-color: red;
+    color: white;
+    border: transparent;
+    padding: 5px 10px;
+    border-radius: 30px;
 }

@@ -38,11 +38,13 @@ ${films.description}
        Tickets sold: ${films.tickets_sold}
     </div>
 </div>
-<button id = "buy"> Buy Ticket </button>
+<button id = "buy"> 
+    Buy Ticket 
+</button>
 `
 displayFilms.appendChild(display1)
 })
 })
  .catch(error => {
     console.log('Error:', error);
-  });
+});

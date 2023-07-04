@@ -37,20 +37,20 @@ const displayFilms = document.getElementById("display")
         //    ensure that the default movie is always displayed
         displayFilms.innerHTML = display1.innerHTML
 
-        // event listener for booking movie tickets and displays sold out when capacity === tickets sold
-//         const buyTicket = document.getElementById("buy")
-// buyTicket.addEventListener('click', ticketSales) 
-// function ticketSales(id){
-//     const ticketSold = document.getElementById("tickets_sold")
-//     const availableTickets = data.capacity - data.tickets_sold
-//     data.tickets_sold += 1
+        event listener for booking movie tickets and displays sold out when capacity === tickets sold
+        const buyTicket = document.getElementById("buy")
+buyTicket.addEventListener('click', ticketSales) 
+function ticketSales(id){
+    const ticketSold = document.getElementById("tickets_sold")
+    const availableTickets = data.capacity - data.tickets_sold
+    data.tickets_sold += 1
     
-//     if (availableTickets >= 1 && availableTickets <= data.capacity){
-//         ticketSold.textContent = `Tickets sold: ${data.tickets_sold}`
-//     } else {
-//         ticketSold.textContent = "Sold Out!"
-//     };
-//     }
+    if (availableTickets >= 1 && availableTickets <= data.capacity){
+        ticketSold.textContent = `Tickets sold: ${data.tickets_sold}`
+    } else {
+        ticketSold.textContent = "Sold Out!"
+    };
+    }
     })
 // fetch data from the db.json local server
 fetch("http://localhost:3000/films")

@@ -15,13 +15,13 @@ nav{
     font-weight: bolder;
 }
 nav ul li{
-    display: inline-flex;
-    padding: 10px 25px;
-    cursor: pointer;
-    font-weight: lighter;
-    margin: 15px;
-    color: grey;
-    font-size: 15px;
+        display: inline-flex;
+        padding: 10px 25px;
+        cursor: pointer;
+        font-weight: lighter;
+        margin: 15px;
+        color: grey;
+        font-size: 15px;
 }
 span{
     color: #00dd00;
@@ -46,8 +46,9 @@ nav ul li:hover{
     display: inline-flex;
 }
 #poster{
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
 }
 #title{
     width: fit-content;
@@ -87,10 +88,4 @@ nav ul li:hover{
     color:black;
     background-color: transparent;
     border: 1px solid black;
-
-}
-#display{
-    overflow-x: hidden;
-    overflow-y: auto;
-    height: 750px;
 }

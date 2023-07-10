@@ -37,7 +37,7 @@ const displayFilms = document.getElementById("display")
         //    ensure that the default movie is always displayed
         displayFilms.innerHTML = display1.innerHTML
 
-        event listener for booking movie tickets and displays sold out when capacity === tickets sold
+        // event listener for booking movie tickets and displays sold out when capacity === tickets sold
         const buyTicket = document.getElementById("buy")
 buyTicket.addEventListener('click', ticketSales) 
 function ticketSales(id){

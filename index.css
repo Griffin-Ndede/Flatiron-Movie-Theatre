@@ -1,6 +1,9 @@
 body{
     font-family: 'Quicksand', sans-serif;
     height: 600px;
+    background-image: url("https://t4.ftcdn.net/jpg/00/92/82/47/360_F_92824780_60mM0MW8H3bdTfyPHaaavjyXtqDa1Asx.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 nav{
     display: flex;
@@ -16,7 +19,7 @@ nav{
 }
 nav ul li{
         display: inline-flex;
-        padding: 10px 25px;
+        padding: 10px 20px;
         cursor: pointer;
         font-weight: lighter;
         margin: 15px;
@@ -33,7 +36,8 @@ nav ul li:hover{
     list-style: circle;
     color: grey;
     margin: 5px;
-    padding: 5px;
+    margin-left: 20px;
+    padding: 2.5px;
     max-width: fit-content;
     width: 300px;
 
@@ -68,7 +72,7 @@ nav ul li:hover{
 #tickets_sold{
     background-color: #009980;
     border-radius: 30px;
-    margin: 0 5px;
+    margin: 0 4px;
     padding: 2.5px 7.5px;
     color: white;
     cursor: pointer;
@@ -80,9 +84,10 @@ nav ul li:hover{
     background-color: #00A62E;
     color: white;
     border: transparent;
-    padding: 5px 7.5px;
+    padding: 5px 5px;
     border-radius: 30px;
     cursor: pointer;
+
 }
 #buy:hover{
     color:black;

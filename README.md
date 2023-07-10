@@ -1,4 +1,4 @@
-# OnTrack Bikeshare platform
+# Movie Ticket platform
 
 ## Author
 Griffin Omondi
